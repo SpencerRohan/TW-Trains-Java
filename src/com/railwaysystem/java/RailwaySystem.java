@@ -1,7 +1,7 @@
 package com.railwaysystem.java;
 
-import apple.laf.JRSUIConstants;
 import com.railwaysystem.java.model.Railway;
+import com.railwaysystem.java.model.RailwayDisplay;
 import com.railwaysystem.java.model.TransitGenerator;
 
 import java.io.IOException;
@@ -16,6 +16,7 @@ public class RailwaySystem {
         TransitGenerator generator = new TransitGenerator();
         String graphString;
         Boolean graphIsGenerated;
+        Railway railway;
 
         if (args.length == 1) {
             graphString = args[0];
@@ -25,18 +26,14 @@ public class RailwaySystem {
         }
 
         if (graphIsGenerated){
-//            generator.run();
-//            Railway railway = generator.getRailway();
-//            RailwayDisplay rDisplay = new RailwayDisplay(railway);
-//            rDisplay.run();
+            generator.run();
+            railway = generator.getRailway();
+            RailwayDisplay rDisplay = new RailwayDisplay(railway);
+            rDisplay.run();
             System.out.println(generator.getGraphString());
         } else {
             System.out.println("There seems to be an issue with the graph data, please check documentation.");
         }
-
-
-        // Generate graph - with optional args if no string - check if graph.txt exists
-        // run railways system with returned graph data
 
     }
 }
