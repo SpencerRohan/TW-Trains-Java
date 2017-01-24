@@ -6,4 +6,14 @@ package com.railwaysystem.java.model;
 public class Railway {
 
 
+    public void createRailwayLine(String from, String to, int distance) {
+        createRailwayStop(new String[]{from});
+        createRailwayStop(new String[]{to});
+
+    }
+
+    public void createRailwayStop(String[] towns) {
+//        System.out.println(towns[0]);
+
+    }
 }

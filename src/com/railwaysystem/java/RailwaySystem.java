@@ -6,9 +6,6 @@ import com.railwaysystem.java.model.TransitGenerator;
 
 import java.io.IOException;
 
-/**
- * Created by N/A on 1/18/17.
- */
 public class RailwaySystem {
 
     public static void main(String[] args) throws IOException {
