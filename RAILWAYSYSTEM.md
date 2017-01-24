@@ -8,12 +8,12 @@ ___
 + **Instructions For Install & Use**
 + **Testing Options**
 + **Assumptions**
-    _i. Directed Graph Input_ 
-    _ii. Nodes & Edges_ 
-    _iii. Other_
+   1. _Directed Graph Input_ 
+   2. _Nodes & Edges_ 
+   3. _Other_
 + **Use Cases**
-    _i. As a Client/User_ 
-    _ii. As a Developer_ 
+   1. _As a Client/User_ 
+   2. _As a Developer_ 
 + **Notes, Thoughts, & Challenge Feedback**
 
 ### TECHNICAL OVERVIEW
@@ -88,8 +88,4 @@ As a Developer... |
 ...I will provide two sets of tests (method testing & challenge goals). |
 
 ### Notes, Thoughts, & Challenge Feedback
-This was my first java project, so I had to quickly bring myself up to speed with Java syntax, IntelliJ, and jUnit.  Reading, following tutorials, and tracking down errors were a big part of this challenge.  I also had to refresh myself on directed graphs, which came easily to me.
-
-The most difficult part of this challenge was wrapping my head around IntelliJ.  Once I did a few sample tutorials regarding project set-ups, the building queues came very naturally.
-
-I used Team Treehouse, Lynda, Stack Overflow, and the java wiki as my major educational resources. 
+N/A
